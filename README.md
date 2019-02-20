@@ -6,6 +6,10 @@ Reaticulate.reabank file
 It works in 4 steps gradualy (even if steps 3 and 4 could be enable together),
 from left to right.
 
+## The scheme in a picture
+
+
+
 ## 1st step
 
 On the left panel, clicking the add button should open a box where we could enter
