@@ -6,10 +6,6 @@ Reaticulate.reabank file
 It works in 4 steps gradualy (even if steps 3 and 4 could be enable together),
 from left to right.
 
-## The scheme in a picture
-
-
-
 ## 1st step
 
 On the left panel, clicking the add button should open a box where we could enter
@@ -65,16 +61,13 @@ It could be
 - value 1 or DATA 1 for the previous selected type (C-0 if type=note OR 32 if type = CC, etc...)
 - value 2 or DATA 2 (could be a velocity value or range)
 - channel
-- group
+- group number (drop down 1 to 4, 1 selected by default)
 
 If I take your example and apply to the picture the "o" parameters:
 > "This one from Cinematic Studio Strings sends 3 separate notes at specific velocities
 > to set sordino and legato in addition to the sustains patch.
 > //! c=long-light i=con-sord o=note:12/note:22,1/note:23,127
->7 con sordino"
-
-- group number (drop down 1 to 4, 1 selected by default)
-
+> 7 con sordino"
 
 ## 4th step
 Extra options for the selected articulation in center panel
@@ -85,7 +78,11 @@ Extra options for the selected articulation in center panel
 - the "off" option
 - the "chase" option for banks
 
-
-## Improvement
+## Suggested improvements
 - each slot column head could be clickable to sort articulation
 - if method is keyswitch, the keyswitch value is displayed in the articulation window
+- min and max pitch
+- transpose option
+- min and max velocity
+- default note lenght
+- MIDI learn for keyswitch and CC
