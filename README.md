@@ -28,7 +28,9 @@ Bank 1 1 OT-BS - V1
 if no selection on the left panel, others panels are not usable
 
 "del" button delete selected entry
+"edit" button reopen the pop-up window with previously entered values
 "clone" button is the clone function
+
 
 ## 2nd step
 Once done, we could go to the center panel by selecting
@@ -50,6 +52,7 @@ with a mix of editable fields and drop-down options.
 //! c=legato i=note-whole 
 20 Sustain lmm Romantic vibrato - C1
 ```
+Not sure the "edit" button is usefull here if you use drop-down.
 
 ## 3rd step
 
@@ -69,14 +72,17 @@ If I take your example and apply to the picture the "o" parameters:
 > //! c=long-light i=con-sord o=note:12/note:22,1/note:23,127
 > 7 con sordino"
 
+Not sure the "edit" button is usefull here if you use drop-down.
+
 ## 4th step
 Extra options for the selected articulation in center panel
-- "f" option
-- "n" option 
+- "f" option per articulation (no global here, drop-down)
+- "n" option (text zone)
 
-## options not covered
-- the "off" option
-- the "chase" option for banks
+## Global options
+- the "off" option (drop-down)
+- the "chase" option for banks (text zone)
+- The "f" option for bank settings (drop-down)
 
 ## Suggested improvements
 - each slot column head could be clickable to sort articulation
